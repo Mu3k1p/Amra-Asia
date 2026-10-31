@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amra អមរា | Café on Koh Dach</title>
+<meta name="description" content="A retro café on Koh Dach, Silk Island, rooted in 1960s New Khmer Architecture. Coffee, pastries and cool air by the Mekong.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Jost:wght@300;400;500&family=Noto+Sans+Khmer:wght@300;400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="index.html" class="logo">Amra<small>អមរា</small></a><ul><li><a href="index.html" class="active">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="visit.html">Visit</a></li></ul></nav>
+<header class="hero">
+  <div class="hero-text">
+    <span class="label">Café on Koh Dach, Phnom Penh</span>
+    <h1>A place to<br>slow down.</h1>
+    <p class="lede">A retro café on Silk Island, rooted in the spirit of 1960s New Khmer Architecture. Coffee, pastries and cool air after a hot day on the Mekong.</p>
+    <div class="row"><a class="link" href="menu.html">See the menu</a><a class="link" href="visit.html">How to get here</a></div>
+  </div>
+  <div class="hero-img"><img src="images/interior.jpg" alt="Amra café interior with golden hour light through large windows"></div>
+</header>
+
+<section class="section split">
+  <div class="photo fade"><img src="images/koh-dach-aerial.jpg" alt="Aerial view of Koh Dach Silk Island, Phnom Penh" loading="lazy"></div>
+  <div class="fade">
+    <span class="label">About Amra</span>
+    <h2>More than just coffee.</h2>
+    <p>Amra was built with intention. The design pulls from New Khmer Architecture of the 1960s: clean geometry, open airflow and materials that belong to this place. It does not feel like a trendy import. It feels rooted.</p>
+    <p>The ground floor lets the river breeze move through. Upstairs is cool and quiet. Power outlets throughout. Khmer songs from the 60s on the speakers, mixed with a little modern pop at a volume that lets you actually talk.</p>
+    <div class="facts fine">
+      <div class="fact"><span>Location</span><b>Koh Dach (Silk Island)</b></div>
+      <div class="fact"><span>Hours</span><b>7:00 AM to 5:00 PM daily</b></div>
+      <div class="fact"><span>Seating</span><b>Indoor and outdoor, AC upstairs</b></div>
+      <div class="fact"><span>Power</span><b>Outlets throughout</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="numbers">
+  <div class="num fade"><b>4.9</b><span>Google rating</span><p>54 reviews. One of the highest rated spots on Koh Dach.</p></div>
+  <div class="num fade"><b>7AM</b><span>Opens every day</span><p>Monday through Sunday, 7am to 5pm. No days off.</p></div>
+  <div class="num fade"><b>1960s</b><span>Design era</span><p>New Khmer Architecture, the golden age of Cambodian design.</p></div>
+</section>
+
+<footer>
+  <div><b>Amra</b> អមរា<br>Koh Dach Track, Koh Dach Island, Phnom Penh</div>
+  <div>Open daily 7am to 5pm<br><a href="tel:+85516790155">+855 16 790 155</a> &nbsp; <a href="https://www.instagram.com/amra.phnompenh/" target="_blank" rel="noopener">@amra.phnompenh</a></div>
+</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

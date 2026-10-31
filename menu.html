@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Amra អមរា</title>
+<meta name="description" content="The Amra menu. Coffee done well, cold treats for hot days and pastries that earn their place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Jost:wght@300;400;500&family=Noto+Sans+Khmer:wght@300;400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="index.html" class="logo">Amra<small>អមរា</small></a><ul><li><a href="index.html">Home</a></li><li><a href="menu.html" class="active">Menu</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="visit.html">Visit</a></li></ul></nav>
+<header class="page-head fade">
+  <span class="label">What we serve</span>
+  <h1>Menu</h1>
+  <p class="lede">Simple, good things. Coffee done well, cold treats for hot days and pastries that earn their place.</p>
+</header>
+
+<section class="flip fade">
+  <iframe allowfullscreen allow="clipboard-write" scrolling="no" title="Amra menu" src="https://heyzine.com/flip-book/3f3119e6f0.html"></iframe>
+</section>
+
+<footer>
+  <div><b>Amra</b> អមរា<br>Koh Dach Track, Koh Dach Island, Phnom Penh</div>
+  <div>Open daily 7am to 5pm<br><a href="tel:+85516790155">+855 16 790 155</a> &nbsp; <a href="https://www.instagram.com/amra.phnompenh/" target="_blank" rel="noopener">@amra.phnompenh</a></div>
+</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

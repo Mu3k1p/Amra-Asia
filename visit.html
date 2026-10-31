@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit | Amra អមរា</title>
+<meta name="description" content="How to get to Amra on Koh Dach, Silk Island. About 15km north of central Phnom Penh by road and ferry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Jost:wght@300;400;500&family=Noto+Sans+Khmer:wght@300;400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="index.html" class="logo">Amra<small>អមរា</small></a><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="visit.html" class="active">Visit</a></li></ul></nav>
+<header class="page-head fade">
+  <span class="label">Find us</span>
+  <h1>How to get here</h1>
+  <p class="lede">Koh Dach sits in the Mekong River, about 15km north of central Phnom Penh. You cross by ferry, which is part of the experience.</p>
+</header>
+
+<section class="visit">
+  <div class="info fade">
+    <div class="photo"><img src="images/koh-dach-aerial.jpg" alt="Aerial view of Koh Dach island with Buddhist temple and Mekong River" loading="lazy"></div>
+    <p class="cap">Koh Dach (Silk Island), Mekong River, Phnom Penh</p>
+    <p class="lede" style="margin-bottom:2.4rem">Known as Silk Island for its centuries old weaving tradition, Koh Dach is a peaceful escape from the city. Rice paddies, bamboo huts, riverside sunsets, and now Amra waiting at the end of your ride.</p>
+    <div class="fact"><span>Address</span><b class="fine">Koh Dach Track, Koh Dach Island, Phnom Penh, Cambodia</b></div>
+    <div class="fact"><span>Hours</span><b class="fine">Monday to Sunday, 7:00 AM to 5:00 PM</b></div>
+    <div class="fact"><span>Phone</span><b class="fine"><a href="tel:+85516790155">+855 16 790 155</a></b></div>
+    <div class="fact"><span>Instagram</span><b class="fine"><a href="https://www.instagram.com/amra.phnompenh/" target="_blank" rel="noopener">@amra.phnompenh</a></b></div>
+  </div>
+
+  <div class="steps fade">
+    <span class="label">Directions</span>
+    <div class="step"><i>01</i><p>From central Phnom Penh, head <b>north across the Japanese Bridge</b>. About 12 to 15km, around 30 minutes by tuk-tuk or taxi, roughly $5 to $10.</p></div>
+    <div class="step"><i>02</i><p>Take the <b>ferry to Koh Dach</b>. It runs 8am to 8pm daily. Costs 1,000 riels per person (about $0.25), or 3,000 riels if you bring a motorbike.</p></div>
+    <div class="step"><i>03</i><p>On the island, <b>Amra is roadside on the Koh Dach Track</b>. Large parking area out front. Look for the retro style building surrounded by greenery.</p></div>
+    <div class="step"><i>Tip</i><p>Best visited <b>December through February</b>. Rent a bicycle or scooter (about $5 a day) and pair your café stop with the nearby silk weaving center.</p></div>
+    <a class="link" href="https://maps.app.goo.gl/DjPs8XPtqcNSxias8" target="_blank" rel="noopener">Open directions in Google Maps</a>
+  </div>
+</section>
+
+<footer>
+  <div><b>Amra</b> អមរា<br>Koh Dach Track, Koh Dach Island, Phnom Penh</div>
+  <div>Open daily 7am to 5pm<br><a href="tel:+85516790155">+855 16 790 155</a> &nbsp; <a href="https://www.instagram.com/amra.phnompenh/" target="_blank" rel="noopener">@amra.phnompenh</a></div>
+</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
