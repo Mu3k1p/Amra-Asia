@@ -107,6 +107,12 @@ nav.over-video ul a:hover,nav.over-video ul a.active{color:#fff;border-color:#ff
 .step b{font-weight:500}
 .steps .link{margin-top:1.8rem}
 
+.fares{margin:1rem 0 .6rem;max-width:26rem}
+.fares div{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);padding:.55rem 0;font-family:var(--detail);font-size:.92rem}
+.fares div:last-child{border-bottom:1px solid var(--line)}
+.fares dt{color:var(--soft)}.fares dd{font-weight:500}
+.step .note{font-family:var(--detail);font-size:.8rem;color:var(--soft)}
+
 /* footer */
 footer{border-top:1px solid var(--line);margin:0 var(--pad);padding:2.5rem 0 3rem;display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;font-family:var(--detail);font-size:.85rem;color:var(--soft)}
 footer b{font-family:var(--display);font-weight:400;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
